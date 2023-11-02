@@ -76,5 +76,253 @@ nav {
  flex-direction: column;
  align-items: center;
  height: 60vh;
- background: linear-gradient(to bottom right, #e4efff, #9dbcfe, #0c34d4);
+ background: linear-gradient(to bottom right, #d15a9a, #a665de, #3b78cd);
 }
+
+/* socials */
+button {
+    height: 4em;
+    width: 15em;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
+   }
+
+
+   button span {
+    z-index: 1;
+    display: inline-block;
+    background-color: black;
+    height: 3em;
+    /* width: 11.5em; */
+    width: 11.5em;
+    margin-right: 1rem;
+    border-radius: 25px;
+    color: #fff;
+    line-height: 55px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transition: all 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+   }
+
+
+   button .container {
+    z-index: -1;
+    width: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50px);
+    transition: all 0.4s;
+   }
+
+
+   button .container a svg {
+    padding: 0 10px;
+   }
+
+
+   button .container a {
+    padding: 0 10px;
+   }
+
+
+   button:hover span {
+    width: 0;
+   }
+
+
+   button:hover .container {
+    z-index: 2;
+    width: 100%;
+   }
+
+
+   /* index content */
+   .homecontent h2 {
+    margin-top: 5%;
+    text-align: center;
+   }
+
+
+   /* cards clubs */
+   .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+   }
+
+
+   .card2 {
+    width: 400px;
+    height: 500px;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #c0c0c0;
+    background: #f1c9fe;
+    box-shadow: 24px 24px 48px #cdabd8,
+      -24px -24px 48px #ffe7ff;
+   }
+
+
+   .card2 .container {
+    text-align: center;
+   }
+
+
+   .card2:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+   }
+
+
+   .card3 {
+    width: 400px;
+    height: 500px;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #c0c0c0;
+    background: #d9cafe;
+    box-shadow: 24px 24px 48px #b8acd8,
+      -24px -24px 48px #fae8ff;
+   }
+
+
+   .card3 .container {
+    text-align: center;
+   }
+
+
+   .card3:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+   }
+
+
+   .card4 {
+    width: 400px;
+    height: 500px;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #c0c0c0;
+    background: #d4e3fe;
+    box-shadow: 24px 24px 48px #b4c1d8,
+      -24px -24px 48px #f4ffff;
+   }
+
+
+   .card4 .container {
+    text-align: center;
+   }
+
+
+   .card4:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+   }
+
+
+   .circle-image {
+    flex-shrink: 0;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 5px;
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+   }
+
+
+   /* Modal Styles */
+   .modal-bg {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+   }
+
+
+   .modal-bg .modal-content {
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+    z-index: -1;
+    border-radius: 20px;
+    background: #ebebeb;
+    box-shadow: -20px -20px 40px rgb(79, 79, 79),
+      20px 20px 40px #9e9e9e;
+   }
+
+
+   .modal-title {
+    padding: 1px 18px;
+    background-color: #ebebeb;
+    color: black;
+   }
+
+
+   .modal-title h3 {
+    margin: 1rem;
+    font-size: xx-large;
+   }
+
+
+   .close-container {
+    position: absolute;
+    top: 20px;
+    margin: 1rem;
+    right: 20px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(195, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+   }
+
+
+   .close-button {
+    font-size: 18px;
+    color: rgb(115, 10, 10);
+    display: none;
+    font-weight: bold;
+   }
+
+
+   .close-container:hover .close-button {
+    display: block;
+   }
+
+
+   .hidden {
+    display: none !important;
+   }
+
+
+   .text1 {
+    margin-left: 1rem;
+    width: 60%;
+    height: auto;
+    font-size: large;
+   }
+
+
+   .text1 p {
+    font-size: larger;
+   }
