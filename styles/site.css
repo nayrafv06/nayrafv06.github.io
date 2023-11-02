@@ -326,3 +326,93 @@ button {
    .text1 p {
     font-size: larger;
    }
+
+/* summer programs */
+.button1 {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+   }
+
+
+   #syt {
+    margin-top: 5%;
+    margin-bottom: -1px;
+   }
+
+
+   #cosmos,
+   #ucsd,
+   #syt-window,
+   #cosmos-window,
+   #ucsd-window {
+    margin-top: -1px;
+    margin-bottom: -1px;
+
+
+   }
+
+
+   #firstgen-window,
+   #firstgen {
+    margin-top: -1px;
+    margin-bottom: 5%;
+   }
+
+
+   #firstgen.expanded {
+    margin-bottom: -1px;
+   }
+
+
+   .button1 .container-name,
+   .window .container-name {
+    margin-left: 1rem;
+    width: 60%;
+   }
+
+
+   .button1 .container-date,
+   .window .container-name {
+    width: 20%;
+    margin-right: 1rem;
+   }
+
+
+   .button1 .container-name h3,
+   .button1 .container-date h3 {
+    font-size: 30px;
+    margin: 0;
+   }
+
+
+   .button1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+   }
+
+
+   .window {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+   }
+
+
+   .window p {
+    font-size: 25px;
+   }
