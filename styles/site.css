@@ -406,7 +406,7 @@ button {
     padding: 20px;
     border-radius: 10px;
     border: 2px solid black;
-    background: #e7e7e7;
+    background: rgb(218, 198, 243);
     display: flex;
     justify-content: space-between;
     align-items: center;
